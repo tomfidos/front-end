@@ -1,0 +1,16 @@
+section {
+    background-color: #808080;
+    width: 200px;
+    height: max-content;
+    padding: 5px;
+}
+h1 {
+    color: #ffffff;
+    font-size: medium;
+}
+div {
+    background-color: #fea500;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
