@@ -5,3 +5,5 @@ function getSum(x, y) {
     let sum = x + y;
     return sum;
 }
+
+getSum(firstNumber, secondNumber);
