@@ -1,0 +1,27 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    background-color: bisque;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 1%;
+}
+
+p {
+    color: blue;
+    text-align: left;
+    font-size: medium;
+    margin-bottom: 1%;
+}
+
+#dodaj {
+    background-color: cadetblue;
+    color: black;
+}
+
+#usun {
+    background-color: rebeccapurple;
+    color: white;
+}
