@@ -1,0 +1,48 @@
+.square {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#square1 {
+    background-color: red;
+    transition-property: width;
+    width: 150px;
+    transition-duration: 3s;
+}
+
+#square1:hover {
+    transition-property: width;
+    width: 300px;
+    transition-duration: 3s;
+}
+
+#square2 {
+    background-color: blue;
+    transition-property: height;
+    height: 150px;
+    transition-duration: 3s;
+}
+
+#square2:hover {
+    transition-property: height;
+    height: 300px;
+    transition-duration: 3s;
+}
+
+#square3 {
+    background-color: green;
+    transition-property: width, height;
+    width: 150px;
+    height: 150px;
+    transition-duration: 3s;
+}
+
+#square3:hover {
+    transition-property: width, height;
+    width: 300px;
+    height: 300px;
+    transition-duration: 3s;
+}
