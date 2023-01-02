@@ -13,14 +13,12 @@ h2 {
 }
 
 #gallery {
-	width: 1024px;
 	margin: 0 auto;
 	text-align: center;
 }
 
 figure {
 	display: inline-block;
-	width: 338px;
 	margin: 0;
 	margin-bottom: 10px;
 }
@@ -32,4 +30,37 @@ figure figcaption {
 figure img{
 	width: 100%;
 	border: 2px solid #444;
+}
+
+.gallery {
+	display: flex;
+	width: 90%;
+	flex-flow: row wrap;
+}
+
+@media (min-width: 993px) {
+	.figure {
+		width: 33%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.figure {
+		width: 50%;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.figure {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.gallery {
+		width: 100%;
+	}
+	.figure {
+		width: 100%;
+	}
 }
