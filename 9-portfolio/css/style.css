@@ -45,9 +45,18 @@ h2, .greyText {
     color: #777;
 }
 
-.gallery {
+.gallery, .form{
     display: flex;
     flex-flow: row wrap;
+}
+
+.socials {
+    display: inline;
+}
+
+.image {
+    width: 25px;
+    height: auto;
 }
 
 #underMainHeader {
@@ -65,6 +74,10 @@ h2, .greyText {
     .item {
         width: 25%;
     }
+    .form {
+        gap: 2px;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -73,6 +86,10 @@ h2, .greyText {
     }
     .item {
         width: 50%;
+    }
+    .form {
+        gap: 2px;
+        justify-content: center;
     }
 }
 
@@ -86,6 +103,10 @@ h2, .greyText {
     .item {
         width: 100%;
     }
+    .form {
+        gap: 2px;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -97,5 +118,9 @@ h2, .greyText {
     }
     .item {
         width: 100%;
+    }
+    .form {
+        gap: 2px;
+        justify-content: center;
     }
 }
