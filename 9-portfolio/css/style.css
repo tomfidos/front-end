@@ -9,14 +9,24 @@ header {
 
 h1 {
     color: #007bff;
+    font-size: 4.2em;
 }
 
 nav {
     background-color: #007bff;
 }
 
-h2, button, .headerText {
+h2, .greyText {
     color: #333;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.sectionHeader {
+    font-size: 1.9em;
 }
 
 .inline {
@@ -31,10 +41,61 @@ h2, button, .headerText {
     text-transform: uppercase;
 }
 
+.about {
+    color: #777;
+}
+
 .gallery {
     display: flex;
+    flex-flow: row wrap;
+}
+
+#underMainHeader {
+    font-size: 1.3em;
 }
 
 #portfolio {
     background-color:  #f2f1ed;
+}
+
+@media (min-width: 1201px) {
+    header, nav, section, footer {
+        width: 1170px
+    }
+    .item {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    header, nav, section, footer {
+        width: 992px
+    }
+    .item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header, nav, section, footer {
+        width: 768px
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    header, nav, section, footer {
+        width: 95%
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .item {
+        width: 100%;
+    }
 }

@@ -14,12 +14,12 @@
     <body>
         <header>
             <h1 class="uppercase">front end developer</h1>
-            <ul class="noBullets headerText">
+            <ul class="noBullets greyText" id="underMainHeader">
                 <li class="inline">HTML</li>
                 <li class="inline">CSS</li>
                 <li class="inline">JavaScript</li>
             </ul>
-            <button  class="uppercase"><a class="headerText" href="#aboutMe">Dowiedz się więcej</a></button>
+            <button  class="uppercase"><a class="greyText" href="#aboutMe">Dowiedz się więcej</a></button>
         </header>
         <nav>
             <ul class="noBullets uppercase">
@@ -28,39 +28,37 @@
                 <li class="inline"><a href="#contact">kontakt</a></li>
             </ul>
         </nav>
-        <section id="aboutMe">
-            <h2  class="uppercase">o mnie</h2>
-            <figure>
-                <img src="./img/about.jpg" alt="autoportret">
-            </figure>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla in quam? Quibusdam consequuntur quasi sunt suscipit ab, ex debitis ipsum reprehenderit quidem optio corrupti eos? Velit optio voluptas voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates in repellat quam inventore incidunt. Nesciunt optio nemo consectetur nostrum impedit corporis doloremque illo dolorem nam, ut, exercitationem, rem voluptatum.</p>
-            <button  class="uppercase"><a class="headerText" href="#portfolio">moje portfolio</a></button>
+        <section class="section" id="aboutMe">
+            <h2  class="uppercase sectionHeader">o mnie</h2>
+            <img src="./img/about.jpg" alt="autoportret">
+            <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla in quam? Quibusdam consequuntur quasi sunt suscipit ab, ex debitis ipsum reprehenderit quidem optio corrupti eos? Velit optio voluptas voluptatum.</p>
+            <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates in repellat quam inventore incidunt. Nesciunt optio nemo consectetur nostrum impedit corporis doloremque illo dolorem nam, ut, exercitationem, rem voluptatum.</p>
+            <button  class="uppercase"><a class="greyText" href="#portfolio">moje portfolio</a></button>
         </section>
-        <section id="portfolio">
-            <h2  class="uppercase">portfolio</h2>
+        <section class="section" id="portfolio">
+            <h2  class="uppercase sectionHeader">portfolio</h2>
             <div class="gallery">
-                <figure><img src="./img/portfolio/photo-1.jpg" alt="zdjęcie nr 1"></figure>
-                <figure><img src="./img/portfolio/photo-2.jpg" alt="zdjęcie nr 2"></figure>
-                <figure><img src="./img/portfolio/photo-3.jpg" alt="zdjęcie nr 3"></figure>
-                <figure><img src="./img/portfolio/photo-4.jpg" alt="zdjęcie nr 4"></figure>
-                <figure><img src="./img/portfolio/photo-5.jpg" alt="zdjęcie nr 5"></figure>
-                <figure><img src="./img/portfolio/photo-6.jpg" alt="zdjęcie nr 6"></figure>
-                <figure><img src="./img/portfolio/photo-7.jpg" alt="zdjęcie nr 7"></figure>
-                <figure><img src="./img/portfolio/photo-8.jpg" alt="zdjęcie nr 8"></figure>
-                <figure><img src="./img/portfolio/photo-9.jpg" alt="zdjęcie nr 9"></figure>
-                <figure><img src="./img/portfolio/photo-10.jpg" alt="zdjęcie nr 10"></figure>
-                <figure><img src="./img/portfolio/photo-11.jpg" alt="zdjęcie nr 11"></figure>
-                <figure><img src="./img/portfolio/photo-12.jpg" alt="zdjęcie nr 12"></figure>
+                <img class="item" src="./img/portfolio/photo-1.jpg" alt="zdjęcie nr 1">
+                <img class="item" src="./img/portfolio/photo-2.jpg" alt="zdjęcie nr 2">
+                <img class="item" src="./img/portfolio/photo-3.jpg" alt="zdjęcie nr 3">
+                <img class="item" src="./img/portfolio/photo-4.jpg" alt="zdjęcie nr 4">
+                <img class="item" src="./img/portfolio/photo-5.jpg" alt="zdjęcie nr 5">
+                <img class="item" src="./img/portfolio/photo-6.jpg" alt="zdjęcie nr 6">
+                <img class="item" src="./img/portfolio/photo-7.jpg" alt="zdjęcie nr 7">
+                <img class="item" src="./img/portfolio/photo-8.jpg" alt="zdjęcie nr 8">
+                <img class="item" src="./img/portfolio/photo-9.jpg" alt="zdjęcie nr 9">
+                <img class="item" src="./img/portfolio/photo-10.jpg" alt="zdjęcie nr 10">
+                <img class="item" src="./img/portfolio/photo-11.jpg" alt="zdjęcie nr 11">
+                <img class="item" src="./img/portfolio/photo-12.jpg" alt="zdjęcie nr 12">
             </div>
         </section>
-        <section id="contact">
-            <h2  class="uppercase">kontakt</h2>
+        <section class="section" id="contact">
+            <h2  class="uppercase sectionHeader">kontakt</h2>
             <form>
                 <input type="text" placeholder="Imię" required>
                 <input type="email" placeholder="Email" required>
                 <input type="text" placeholder="Wiadomość" required>
-                <input class="uppercase headerText" type="submit" value="Wyślij wiadomość">
+                <input class="uppercase greyText" type="submit" value="Wyślij wiadomość">
             </form>
             <ul class="noBullets">
                 <li class="inline">
