@@ -23,6 +23,8 @@ h2, .greyText {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sectionHeader {
@@ -41,17 +43,9 @@ h2, .greyText {
     text-transform: uppercase;
 }
 
-.about {
-    color: #777;
-}
-
 .gallery, .form{
     display: flex;
     flex-flow: row wrap;
-}
-
-.socials {
-    display: inline;
 }
 
 .image {
@@ -74,10 +68,7 @@ h2, .greyText {
     .item {
         width: 25%;
     }
-    .form {
-        gap: 2px;
-        justify-content: center;
-    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -86,10 +77,6 @@ h2, .greyText {
     }
     .item {
         width: 50%;
-    }
-    .form {
-        gap: 2px;
-        justify-content: center;
     }
 }
 
@@ -103,10 +90,6 @@ h2, .greyText {
     .item {
         width: 100%;
     }
-    .form {
-        gap: 2px;
-        justify-content: center;
-    }
 }
 
 @media (max-width: 767px) {
@@ -119,8 +102,13 @@ h2, .greyText {
     .item {
         width: 100%;
     }
-    .form {
-        gap: 2px;
-        justify-content: center;
-    }
+}
+
+.form {
+    gap: 2px;
+    justify-content: center;
+}
+
+.about {
+    color: #777;
 }
