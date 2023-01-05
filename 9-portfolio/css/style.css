@@ -43,14 +43,20 @@ h2, .greyText {
     text-transform: uppercase;
 }
 
-.gallery, .form{
+.gallery {
     display: flex;
     flex-flow: row wrap;
+    width: 80%;
+    align-self: center;
 }
 
 .image {
     width: 25px;
     height: auto;
+}
+
+.form {
+    display: flex
 }
 
 #underMainHeader {
@@ -68,7 +74,24 @@ h2, .greyText {
     .item {
         width: 25%;
     }
-
+    .form {
+        width: 700px;
+        flex-flow: row wrap;
+        align-self: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #name, #email {
+        flex-basis: 47.5%;
+        height: 2em;
+    }
+    #message {
+        flex-basis: 97.5%;
+        height: 6em;
+    }
+    #submit {
+        flex-basis: 25%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -104,11 +127,8 @@ h2, .greyText {
     }
 }
 
-.form {
-    gap: 2px;
-    justify-content: center;
-}
-
 .about {
+    align-self: center;
+    width: 700px;
     color: #777;
 }
