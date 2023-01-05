@@ -68,6 +68,11 @@ h2, .greyText {
     background-color:  #f2f1ed;
 }
 
+#portfolioButton {
+    width: fit-content;
+    align-self: center;
+}
+
 @media (min-width: 1201px) {
     header, nav, section, footer {
         width: 1170px
@@ -176,6 +181,6 @@ h2, .greyText {
 
 .about {
     align-self: center;
-    width: 700px;
+    max-width: 700px;
     color: #777;
 }
