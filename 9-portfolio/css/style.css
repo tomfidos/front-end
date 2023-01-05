@@ -5,6 +5,7 @@ body {
 
 header {
     background-image: url(../img/header.jpg);
+    padding-bottom: 1em;
 }
 
 h1 {
@@ -62,6 +63,12 @@ h2, .greyText {
 
 #underMainHeader {
     font-size: 1.3em;
+}
+
+#menu {
+    margin-top: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #portfolio {
