@@ -56,7 +56,8 @@ h2, .greyText {
 }
 
 .form {
-    display: flex
+    display: flex;
+    width: 700px;
 }
 
 #underMainHeader {
@@ -75,7 +76,6 @@ h2, .greyText {
         width: 25%;
     }
     .form {
-        width: 700px;
         flex-flow: row wrap;
         align-self: center;
         justify-content: space-around;
@@ -102,7 +102,6 @@ h2, .greyText {
         width: 50%;
     }
     .form {
-        width: 700px;
         flex-flow: row wrap;
         align-self: center;
         justify-content: space-around;
@@ -127,9 +126,27 @@ h2, .greyText {
     }
     .gallery {
         flex-direction: column;
+        width: 100%;
     }
     .item {
         width: 100%;
+    }
+    .form {
+        flex-flow: row wrap;
+        align-self: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #name, #email {
+        flex-basis: 47.5%;
+        height: 2em;
+    }
+    #message {
+        flex-basis: 97.5%;
+        height: 6em;
+    }
+    #submit {
+        flex-basis: 25%;
     }
 }
 
@@ -139,9 +156,21 @@ h2, .greyText {
     }
     .gallery {
         flex-direction: column;
+        width: 100%;
     }
     .item {
         width: 100%;
+    }
+    .form {
+        flex-flow: column;
+        align-self: center;
+        align-items: center;
+    }
+    #name, #email {
+        height: 2em;
+    }
+    #message {
+        height: 6em;
     }
 }
 
