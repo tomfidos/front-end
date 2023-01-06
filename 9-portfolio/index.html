@@ -19,21 +19,21 @@
                 <li class="inline">CSS</li>
                 <li class="inline">JavaScript</li>
             </ul>
-            <button  class="uppercase"><a class="greyText" href="#aboutMe">Dowiedz się więcej</a></button>
+            <button class="uppercase"><a class="greyText link" id="learnMore" href="#aboutMe">Dowiedz się więcej</a></button>
         </header>
         <nav>
             <ul class="noBullets uppercase" id="menu">
-                <li class="inline"><a href="#aboutMe">o mnie</a></li>
-                <li class="inline"><a href="#portfolio">portfolio</a></li>
-                <li class="inline"><a href="#contact">kontakt</a></li>
+                <li class="inline"><a class="link" href="#aboutMe">o mnie</a></li>
+                <li class="inline"><a class="link" href="#portfolio">portfolio</a></li>
+                <li class="inline"><a class="link" href="#contact">kontakt</a></li>
             </ul>
         </nav>
         <section class="section" id="aboutMe">
             <h2  class="uppercase sectionHeader">o mnie</h2>
-            <img src="./img/about.jpg" alt="autoportret">
+            <img id="autoportret" src="./img/about.jpg" alt="autoportret">
             <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla in quam? Quibusdam consequuntur quasi sunt suscipit ab, ex debitis ipsum reprehenderit quidem optio corrupti eos? Velit optio voluptas voluptatum.</p>
             <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates in repellat quam inventore incidunt. Nesciunt optio nemo consectetur nostrum impedit corporis doloremque illo dolorem nam, ut, exercitationem, rem voluptatum.</p>
-            <button class="uppercase" id="portfolioButton"><a class="greyText" href="#portfolio">moje portfolio</a></button>
+            <button class="uppercase" id="portfolioButton"><a class="greyText link" href="#portfolio">moje portfolio</a></button>
         </section>
         <section class="section" id="portfolio">
             <h2  class="uppercase sectionHeader">portfolio</h2>
@@ -52,7 +52,7 @@
                 <img class="item" src="./img/portfolio/photo-12.jpg" alt="zdjęcie nr 12">
             </div>
         </section>
-        <section class="section">
+        <section class="section" id="contact">
             <h2 class="uppercase sectionHeader">kontakt</h2>
             <form class="form">
                 <input id="name" type="text" placeholder="Imię" required>

@@ -5,6 +5,8 @@ body {
 
 header {
     background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 1em;
 }
 
@@ -21,11 +23,16 @@ h2, .greyText {
     color: #333;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .sectionHeader {
@@ -61,6 +68,11 @@ h2, .greyText {
     width: 700px;
 }
 
+#learnMore {
+    background-color: #f2f1ed;
+    border-color: #007bff;
+}
+
 #underMainHeader {
     font-size: 1.3em;
 }
@@ -71,6 +83,10 @@ h2, .greyText {
     padding-bottom: 1em;
 }
 
+#autoportret {
+    border-radius: 50%;
+}
+
 #portfolio {
     background-color:  #f2f1ed;
 }
@@ -78,6 +94,13 @@ h2, .greyText {
 #portfolioButton {
     width: fit-content;
     align-self: center;
+    background-color: white;
+    border-color: #007bff;
+}
+
+#submit {
+    background-color: white;
+    border-color: #007bff;
 }
 
 @media (min-width: 1201px) {
@@ -139,9 +162,10 @@ h2, .greyText {
     .gallery {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     .item {
-        width: 100%;
+        width: 75%;
     }
     .form {
         flex-flow: row wrap;
@@ -169,9 +193,10 @@ h2, .greyText {
     .gallery {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     .item {
-        width: 100%;
+        width: 75%;
     }
     .form {
         flex-flow: column;
