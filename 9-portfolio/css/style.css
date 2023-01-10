@@ -22,7 +22,9 @@ h1 {
 }
 
 hr {
-
+    width: 100px;
+    border: 1px solid #007bff;
+    margin-bottom: 3em;
 }
 
 h2, .greyText {
@@ -51,6 +53,7 @@ h2, .greyText {
 
 .sectionHeader {
     font-size: 1.9em;
+    margin-bottom: 0px;
 }
 
 .inline {
@@ -80,6 +83,8 @@ h2, .greyText {
 
 .item {
     width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .image {
@@ -95,7 +100,7 @@ h2, .greyText {
     top: 0;
     left: 0;
     text-align: center;
-    padding-top: 20%;
+    font-size: 3em;
     background-color: rgba(0, 0, 100);
     color: white;
     margin: 0;
