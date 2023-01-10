@@ -13,13 +13,15 @@
     </head>
     <body>
         <header>
-            <h1 class="uppercase">front end developer</h1>
-            <ul class="noBullets greyText" id="underMainHeader">
-                <li class="inline">HTML</li>
-                <li class="inline">CSS</li>
-                <li class="inline">JavaScript</li>
-            </ul>
-            <button class="uppercase"><a class="greyText link" id="learnMore" href="#aboutMe">Dowiedz się więcej</a></button>
+            <div class="container" id="header">
+                <h1 class="uppercase">front end developer</h1>
+                <ul class="noBullets greyText" id="underMainHeader">
+                    <li class="inline">HTML<span class="span">•</span></li>
+                    <li class="inline">CSS<span class="span">•</span></li>
+                    <li class="inline">JavaScript</li>
+                </ul>
+                <button class="uppercase"><a class="greyText link" id="learnMore" href="#aboutMe">Dowiedz się więcej</a></button>
+            </div>
         </header>
         <nav>
             <ul class="noBullets uppercase" id="menu">
@@ -28,77 +30,86 @@
                 <li class="inline"><a class="link" href="#contact">kontakt</a></li>
             </ul>
         </nav>
-        <section class="section" id="aboutMe">
-            <h2  class="uppercase sectionHeader">o mnie</h2>
-            <img id="autoportret" src="./img/about.jpg" alt="autoportret">
-            <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla in quam? Quibusdam consequuntur quasi sunt suscipit ab, ex debitis ipsum reprehenderit quidem optio corrupti eos? Velit optio voluptas voluptatum.</p>
-            <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates in repellat quam inventore incidunt. Nesciunt optio nemo consectetur nostrum impedit corporis doloremque illo dolorem nam, ut, exercitationem, rem voluptatum.</p>
-            <button class="uppercase" id="portfolioButton"><a class="greyText link" href="#portfolio">moje portfolio</a></button>
+        <section class="section">
+            <div class="container"  id="aboutMe">
+                <h2  class="uppercase sectionHeader">o mnie</h2>
+                <hr>
+                <img id="autoportret" src="./img/about.jpg" alt="autoportret">
+                <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nulla in quam? Quibusdam consequuntur quasi sunt suscipit ab, ex debitis ipsum reprehenderit quidem optio corrupti eos? Velit optio voluptas voluptatum.</p>
+                <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates in repellat quam inventore incidunt. Nesciunt optio nemo consectetur nostrum impedit corporis doloremque illo dolorem nam, ut, exercitationem, rem voluptatum.</p>
+                <button class="uppercase" id="portfolioButton"><a class="greyText link" href="#portfolio">moje portfolio</a></button>
+            </div>
         </section>
-        <section class="section" id="portfolio">
-            <h2  class="uppercase sectionHeader">portfolio</h2>
-            <div class="gallery">
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-1.jpg" alt="zdjęcie nr 1">
-                    <h3 class="projectId">Projekt 1</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-2.jpg" alt="zdjęcie nr 2">
-                    <h3 class="projectId">Projekt 2</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-3.jpg" alt="zdjęcie nr 3">
-                    <h3 class="projectId">Projekt 3</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-4.jpg" alt="zdjęcie nr 4">
-                    <h3 class="projectId">Projekt 4</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-5.jpg" alt="zdjęcie nr 5">
-                    <h3 class="projectId">Projekt 5</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-6.jpg" alt="zdjęcie nr 6">
-                    <h3 class="projectId">Projekt 6</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-7.jpg" alt="zdjęcie nr 7">
-                    <h3 class="projectId">Projekt 7</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-8.jpg" alt="zdjęcie nr 8">
-                    <h3 class="projectId">Projekt 8</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-9.jpg" alt="zdjęcie nr 9">
-                    <h3 class="projectId">Projekt 9</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-10.jpg" alt="zdjęcie nr 10">
-                    <h3 class="projectId">Projekt 10</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-11.jpg" alt="zdjęcie nr 11">
-                    <h3 class="projectId">Projekt 11</h3>
-                </div>
-                <div class="imageWrapper">
-                    <img class="item" src="./img/portfolio/photo-12.jpg" alt="zdjęcie nr 12">
-                    <h3 class="projectId">Projekt 12</h3>
+        <section class="section">
+            <div class="container"  id="portfolio">
+                <h2  class="uppercase sectionHeader">portfolio</h2>
+                <hr>
+                <div class="gallery">
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-1.jpg" alt="zdjęcie nr 1">
+                        <h3 class="projectId">Projekt 1</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-2.jpg" alt="zdjęcie nr 2">
+                        <h3 class="projectId">Projekt 2</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-3.jpg" alt="zdjęcie nr 3">
+                        <h3 class="projectId">Projekt 3</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-4.jpg" alt="zdjęcie nr 4">
+                        <h3 class="projectId">Projekt 4</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-5.jpg" alt="zdjęcie nr 5">
+                        <h3 class="projectId">Projekt 5</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-6.jpg" alt="zdjęcie nr 6">
+                        <h3 class="projectId">Projekt 6</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-7.jpg" alt="zdjęcie nr 7">
+                        <h3 class="projectId">Projekt 7</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-8.jpg" alt="zdjęcie nr 8">
+                        <h3 class="projectId">Projekt 8</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-9.jpg" alt="zdjęcie nr 9">
+                        <h3 class="projectId">Projekt 9</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-10.jpg" alt="zdjęcie nr 10">
+                        <h3 class="projectId">Projekt 10</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-11.jpg" alt="zdjęcie nr 11">
+                        <h3 class="projectId">Projekt 11</h3>
+                    </div>
+                    <div class="imageWrapper">
+                        <img class="item" src="./img/portfolio/photo-12.jpg" alt="zdjęcie nr 12">
+                        <h3 class="projectId">Projekt 12</h3>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section" id="contact">
-            <h2 class="uppercase sectionHeader">kontakt</h2>
-            <form class="form">
-                <input id="name" type="text" placeholder="Imię" required>
-                <input id="email" type="email" placeholder="Email" required>
-                <input id="message" type="text" placeholder="Wiadomość" required>
-                <input id="submit" class="uppercase greyText" type="submit" value="Wyślij wiadomość">
-            </form>
+        <section class="section">
+            <div class="container" id="contact">
+                <h2 class="uppercase sectionHeader">kontakt</h2>
+                <hr>
+                <form class="form">
+                    <input id="name" type="text" placeholder="Imię" required>
+                    <input id="email" type="email" placeholder="Email" required>
+                    <input id="message" type="text" placeholder="Wiadomość" required>
+                    <input id="submit" class="uppercase greyText" type="submit" value="Wyślij wiadomość">
+                </form>
+            </div>
         </section>
         <section>
-            <ul class="noBullets">
+            <ul class="noBullets" id="socials">
                 <li class="inline">
                     <a href="https://www.facebook.com">
                         <img class="image" src="./img/icons/facebook.png" alt="ikona Facebooka">
@@ -122,7 +133,7 @@
             </ul>
         </section>
         <footer>
-            <p>Copyright by Tomasz Fidos</p>
+            <p id="copywright">Copyright by Tomasz Fidos</p>
         </footer>
     </body>
 </html>

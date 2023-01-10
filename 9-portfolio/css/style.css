@@ -3,11 +3,17 @@ body {
     font-family: 'Open Sans';
 }
 
-header {
+#header {
     background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -15,12 +21,16 @@ h1 {
     font-size: 4.2em;
 }
 
-nav {
-    background-color: #007bff;
+hr {
+
 }
 
 h2, .greyText {
     color: #333;
+}
+
+.span {
+    
 }
 
 .link {
@@ -30,9 +40,6 @@ h2, .greyText {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .sectionHeader {
@@ -45,6 +52,7 @@ h2, .greyText {
 
 .noBullets {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .uppercase {
@@ -110,6 +118,7 @@ h2, .greyText {
 }
 
 #menu {
+    background-color: #007bff;
     margin-top: 0px;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -136,7 +145,7 @@ h2, .greyText {
 }
 
 @media (min-width: 1201px) {
-    header, nav, section, footer {
+    .container, #menu, #socials, #copywright {
         width: 1170px
     }
     .imageWrapper {
@@ -162,7 +171,7 @@ h2, .greyText {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    header, nav, section, footer {
+    .container, #menu, #socials, #copywright {
         width: 992px
     }
     .imageWrapper {
@@ -188,7 +197,7 @@ h2, .greyText {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    header, nav, section, footer {
+    .container, #menu, #socials, #copywright {
         width: 768px
     }
     .gallery {
@@ -219,7 +228,7 @@ h2, .greyText {
 }
 
 @media (max-width: 767px) {
-    header, nav, section, footer {
+    .container, #menu, #socials, #copywright {
         width: 95%
     }
     .gallery {
