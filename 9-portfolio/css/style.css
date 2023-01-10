@@ -30,11 +30,18 @@ h2, .greyText {
 }
 
 .span {
-    
+    color: #007bff;
+}
+
+.button {
+    border-color: #007bff;
+    font-size: 1.3em;
+    padding: 6px;
 }
 
 .link {
     text-decoration: none;
+    color: white;
 }
 
 .section {
@@ -64,6 +71,7 @@ h2, .greyText {
     flex-flow: row wrap;
     width: 80%;
     align-self: center;
+    padding-bottom: 8em;
 }
 
 .imageWrapper {
@@ -110,7 +118,7 @@ h2, .greyText {
 
 #learnMore {
     background-color: #f2f1ed;
-    border-color: #007bff;
+    text-decoration: none;
 }
 
 #underMainHeader {
@@ -122,6 +130,11 @@ h2, .greyText {
     margin-top: 0px;
     padding-top: 1em;
     padding-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.menuOptions {
+    padding: 3em;
 }
 
 #autoportret {
@@ -136,12 +149,19 @@ h2, .greyText {
     width: fit-content;
     align-self: center;
     background-color: white;
-    border-color: #007bff;
+}
+
+#portfolioLink {
+    text-decoration: none;
+}
+
+#message {
+    margin-top: 1em;
 }
 
 #submit {
     background-color: white;
-    border-color: #007bff;
+    margin-top: 1em;
 }
 
 @media (min-width: 1201px) {
@@ -231,6 +251,9 @@ h2, .greyText {
     .container, #menu, #socials, #copywright {
         width: 95%
     }
+    .button {
+        font-size: 95%;
+    }
     .gallery {
         flex-direction: column;
         width: 100%;
@@ -243,12 +266,15 @@ h2, .greyText {
         flex-flow: column;
         align-self: center;
         align-items: center;
+        margin-left: 1em;
     }
     #name, #email {
         height: 2em;
+        width: 50%;
     }
     #message {
         height: 6em;
+        width: 50%;
     }
 }
 
